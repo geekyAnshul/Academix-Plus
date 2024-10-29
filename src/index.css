@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.name {
+  /* background: linear-gradient(135deg, #001f3f, #005f99); */
+  /* background: linear-gradient(135deg, #0f4c75, #3282b8);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  color: white;
+}
+
+.nav{
+  /* background: linear-gradient(135deg, #0f4c75, #3282b8); */
+  /* background: linear-gradient(135deg, #6a11cb, #2575fc); */
+  background: linear-gradient(135deg, #7b1fa2, #9c27b0, #ba68c8);
+
+
+}
+
+.btn{
+ transition: all 0.3s ease;
+  
+}
+
+.btn:hover{
+  /* background: linear-gradient(135deg, #0f4c75, #3282b8); */
+  background: linear-gradient(135deg, #7b1fa2, #9c27b0, #ba68c8);
+
+  color: white;
+  transform: scale(1.05);
+}
+
+/* .butn{
+  background: linear-gradient(135deg, #0f4c75, #3282b8);
+  color: white;
+  border-radius: 5px;
+}
+.butn.hover{
+
+} */
+.butn {
+  /* background: linear-gradient(135deg, #0f4c75, #3282b8); */
+  background: linear-gradient(135deg, #7b1fa2, #9c27b0, #ba68c8);
+
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.butn:hover {
+  /* background: linear-gradient(135deg, #3282b8, #0f4c75); Reverse gradient on hover */
+  background: linear-gradient(135deg, #7b1fa2, #9c27b0, #ba68c8);
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  transform: scale(1.04); /* Slight scaling for effect */
+}
+
+
+
+
+.card {
+  background-color: rgb(245, 245, 245);
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out; /* Smooth transition */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Default small shadow */
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Slightly bigger shadow on hover */
+  transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.cross{
+  background: linear-gradient(135deg, #7b1fa2, #9c27b0, #ba68c8);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  
+  color: #919191;
+  font-size: 35px;
+  transition: all 0.5s ease;
+}
+
+.cross:hover{
+  color: #474747;
+  transform: scale(1.05);
+}
+
+.butni {
+  /* background: linear-gradient(135deg, #0f4c75, #3282b8); */
+  background: linear-gradient(135deg, #7b1fa2, #9c27b0, #ba68c8);
+
+  color: white;
+  border-radius: 50%;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.butni:hover {
+  /* background: linear-gradient(135deg, #3282b8, #0f4c75); Reverse gradient on hover */
+  background: linear-gradient(135deg, #7b1fa2, #9c27b0, #ba68c8);
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  transform: scale(1.04); /* Slight scaling for effect */
+}
+
+.success{
+  background: linear-gradient(135deg, #7b1fa2, #9c27b0, #ba68c8);
+}
